@@ -1,7 +1,18 @@
 # constructor_generator 
 An automatic class generator with constructor, getters and setters method for the attributes
 
-# An example
+# An example of input
+
+> class name and a list of attribute names
+
+```
+parameter_list = ['fare_class', 'unit_fare_value', 'volume', 'container_type', 'orig', 'dest', 'date_avail', 'date_due', 'cat_customer']
+my_code = generator("Demand", parameter_list)
+print(my_code)
+```    
+
+
+# An example of output
 
 ```
 class Demand:
